@@ -8,6 +8,7 @@
 */
 
 {{ config(materialized='table') }}
+{{ config(schema='examples') }}
 
 with source_data as (
 
